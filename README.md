@@ -73,3 +73,5 @@ To run the demo:
   $ python test.py
   
 note: you need to change the video's name you want to run the demo in line 28, test.py
+
+KCF module is from: https://github.com/uoip/KCFcpp-py-wrapper
