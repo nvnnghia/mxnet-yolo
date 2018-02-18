@@ -1,13 +1,4 @@
-Real-time object detection using mxnet yolo and KCF tracking
-To run the demo:
-  cd kcf
-  python setup.py install
-  cd ..
-  python test.py
-  
-note: you need to change the video's name you want to run the demo in line 28, test.py
 
-To try more demo from MXnet -Yolo: 
 # YOLO-v2: Real-Time Object Detection
 
 Still under development. 71 mAP(darknet) and 74mAP(resnet50) on VOC2007 achieved so far.
@@ -68,3 +59,12 @@ python train.py --gpus 0,1,2,3 --network resnet50_yolo --data-shape 416 --pretra
 # see advanced arguments for training
 python train.py -h
 ```
+---------------------------------------------------------------------------------
+Real-time object detection using mxnet yolo and KCF tracking
+To run the demo:
+  cd kcf
+  python setup.py install
+  cd ..
+  python test.py
+  
+note: you need to change the video's name you want to run the demo in line 28, test.py
