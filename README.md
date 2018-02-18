@@ -62,9 +62,13 @@ python train.py -h
 ---------------------------------------------------------------------------------
 Real-time object detection using mxnet yolo and KCF tracking
 To run the demo:
+
   $ cd kcf
+  
   $ python setup.py install
+  
   $ cd ..
+  
   $ python test.py
   
 note: you need to change the video's name you want to run the demo in line 28, test.py
